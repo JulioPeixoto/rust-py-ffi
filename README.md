@@ -1,6 +1,6 @@
 # rust-py-ffi
 
-This project demonstrates the integration between Rust and Python using PyO3 for Foreign Function Interface (FFI). It compares the performance of a Fibonacci function implemented in both Rust and Python, where a FastAPI endpoint calls the Rust function for computation.
+This project demonstrates the integration between Rust and Python(w Fastapi) using PyO3 for Foreign Function Interface (FFI). It compares the performance of a Fibonacci function implemented in both Rust and Python, where a FastAPI endpoint calls the Rust function for computation.
 
 ## Performance Comparison (Fibonacci)
 
@@ -21,7 +21,6 @@ This project demonstrates the integration between Rust and Python using PyO3 for
     {
       "result": 102334155,
       "time": 0.35337138175964355,
-      "language": "Rust"
     }
     ```
 
@@ -36,6 +35,5 @@ This project demonstrates the integration between Rust and Python using PyO3 for
     {
       "result": 102334155,
       "time": 29.310354709625244,
-      "language": "Python"
     }
     ```
