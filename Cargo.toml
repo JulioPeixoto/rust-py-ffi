@@ -1,0 +1,11 @@
+[package]
+name = "rust_py_ffi"    
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+name = "rust_py_ffi"
+crate-type = ["cdylib"]   
+
+[dependencies]
+pyo3 = { version = "0.26.0", features = ["extension-module"] }
