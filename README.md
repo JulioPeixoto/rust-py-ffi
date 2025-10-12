@@ -70,7 +70,7 @@ maturin develop
 Com a extensão Rust compilada e o ambiente Python configurado, você pode iniciar a aplicação FastAPI:
 
 ```bash
-fastapi run src/main.py --host 0.0.0.0 --port 8000 --reload
+uv run fastapi dev src/main.py --port 8000 --reload
 ```
 
 A aplicação estará acessível em `http://localhost:8000`. Você pode ir para `http://localhost:8000/docs` para ver a documentação interativa da API.
