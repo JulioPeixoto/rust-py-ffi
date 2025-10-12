@@ -15,6 +15,6 @@ build-backend = "maturin"
 
 [tool.maturin]
 bindings = "pyo3"
-manifest-path = "../Cargo.toml"
-python-source = "."          
+manifest-path = "Cargo.toml"
+python-source = "./src"          
 module-name = "rust_py_ffi"  
